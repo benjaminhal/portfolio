@@ -1,0 +1,38 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    max-width: 95%;
+    background-image: url("../../fondd.jpg");
+    
+}
+
+header img{
+    height: 137px;
+    width: 137px;
+    
+}
+
+
+.nav_list{
+    font-family: 'Monstserrat', sans-serif;
+    display: flex;
+    gap: 50px;
+    background: linear-gradient(to left, #8e86b5, #acaeed);
+    background-clip: text;
+    font-size: clamp(12px, 2.5vw, 24px);
+    list-style-type: none; 
+}
+
+.nav_list a{
+    background: linear-gradient(to left,#8e86b5, #acaeed);
+    background-clip: text;
+    text-decoration: none;
+}
+
+.nav_list_active{
+    position: relative;
+    background: linear-gradient(to left,#8e86b5, #acaeed);
+    background-clip: text;
+    text-decoration: underline solid #8e86b5; 
+}

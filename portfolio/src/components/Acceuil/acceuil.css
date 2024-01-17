@@ -1,0 +1,75 @@
+.presentation{
+    background-color: #1f2039;
+}
+
+.present{
+    padding: 20px;
+}
+.present h2{
+    font-size: 2em;
+    color: #a5b4fc;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    width: 9em;
+}
+
+.present p{
+    font-size: 1.1em;
+    color: #f9f8ff;
+    text-align: center;
+}
+
+.photo{
+    margin-left: auto;
+    margin-right: auto;
+    width: 20em;
+    border-radius: 50px;
+}
+
+.photo img{
+    border-radius: 140px;
+    width: 270px;
+}
+
+.categorie{
+    display: flex;
+    margin-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.categorie img{
+    width: 70px;
+
+}
+
+.competence{
+    display: flex;
+}
+
+.titre h2{
+    font-size: 2em;
+    padding-left: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 9em;
+    color: #a5b4fc;
+}
+
+.competence h3{
+    color:white;
+}
+
+.competence p{
+    color: white;
+}
+
+.front{
+    margin-right: 46px;
+}
+
+.back{
+    margin-right: 46px;
+}

@@ -1,0 +1,57 @@
+footer{
+    display: block;
+    padding-top: 30px;
+    gap: 50px;
+    width: 100%;
+    background-image: url("../../fondd.jpg");
+}
+
+.foot{
+    display: flex;
+}
+
+.contact{
+    margin-left: auto;
+    WIDTH: 30%;
+}
+
+.contact p{
+    display: flex;
+    margin-left: 17px ;
+}
+
+.tel{
+    display: flex;
+    width: 100%;
+    height: 25px;
+}
+
+.tel img{
+    WIDTH: 36px;
+    height: 36px;
+}
+
+.mail{
+    display: flex;
+    width: 25%;
+    height: 52px;
+    margin-top: 20px;
+}
+
+.mail img{
+    width: 39px;
+    height: 39px;
+}
+
+
+footer div{
+    margin-top: auto;
+    margin-bottom: auto;   
+   }
+
+.logo{
+    width: 137px;
+    height:137px;
+    margin-left: 20px;
+    display: block;
+}

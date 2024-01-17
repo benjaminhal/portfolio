@@ -1,0 +1,41 @@
+.info{
+    background-color: #1f2039;
+    color: white;
+}
+
+.info-perso{
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.adresse{
+    display: flex;
+}
+
+.tel-info{
+    display: flex;
+}
+
+.mail-info{
+    display: flex;
+}
+
+.adresse img{
+    width: 30px;
+    height: 30px;
+}
+.tel-info img{
+    width: 30px;
+    height: 30px;
+}
+
+.mail-info img{
+    width: 30px;
+    height: 30px;
+}
+
+.cc{
+    color: #a5b4fc;
+    margin: 16px;
+    text-align: center;
+}
