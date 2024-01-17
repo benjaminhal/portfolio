@@ -1,0 +1,152 @@
+[
+    {
+        "id": "1",
+        "title": "Booki",
+        "subtitle": "Création de la page d’accueil d’une agence de voyage en HTML et CSS, conformément aux maquettes de l’UI Designer",
+        "context": "Projet réalisé dans le cadre de ma formation \"développeur web\" d’OpenClassrooms en 2023.",
+        "mission": {
+            "principal" : "Au cours de ce projet, ma mission consistait à effectuer l'intégration de l'interface du site web de la start-up Booki. Cette tâche impliquait l'utilisation exclusive des langages HTML et CSS, en respectant scrupuleusement les maquettes élaborées par l'UI Designer à travers l'outil Figma. Le site que j'ai contribué à développer offre aux utilisateurs la possibilité de rechercher des hébergements et des activités dans la ville de leur choix.",
+            "details": []
+        },
+        "skills":[
+            "Intégration à partir d'une maquette (Figma): transformation des concepts visuels établis sur Figma en une interface web esthétique",
+            "Langage HTML : maitrise des balise meta, des balises sémantiques, et autres éléments essentiels pour la structure optimale du contenu",
+            "Langage CSS : utilisation de concepts tels que flexbox pour assurer une mise en page flexible et élégante du site",
+            "Réalisation d’un site responsive : interface adaptative pour garantir une expérience utilisateur sur desktop, tablette et mobile"
+        ],
+        "keywords": 
+        [
+            "HTML",
+            "CSS",
+            "FIGMA",
+            "GIT"
+        ],
+        "cover": "",
+        "pictures": "",
+        "github": "https://github.com/benjaminhal/booki.git",
+        "demo": "https://benjaminhal.github.io/booki/"
+    },
+    {
+        "id":"2",
+        "title":"Sophie Bluel",
+        "subtitle":"Création d'un site dynamique avec JavaScript",
+        "context":"Projet réalisé dans le cadre de ma formation \"développeur web\" d’OpenClassrooms en 2023.",
+        "mission": {
+            "principal" : "Dans le cadre de ce projet, ma mission était de concevoir le site portfolio pour l'architecte Sophie Bluel. Les aspects spécifiques de cette mission comprenaient :",
+            "details": [
+                "Finalisation de la page de présentation des travaux : optimisation et achèvement de la page existante dédiée à la présentation des réalisations de l'architecte, en s'appuyant sur le code préexistant",
+                "Création de la page de connexion de l'administrateur : développement complet de la page de connexion destinée à l'administrateur du site, à partir de zéro",
+                "Implémentation d'une modale pour la gestion de la galerie de travaux: conception et intégration d'une modale interactive permettant à l'administrateur d'ajouter et supprimer des travaux de manière efficace au sein de sa galerie, offrant ainsi une gestion optimale des contenus"
+            ]
+        },
+        "skills":[
+            "Langage JavaScript : manipulation du DOM permettant une interaction dynamique et fluide avec les éléments de la page, et gestion des événements utilisateurs pour assurer une expérience intuitive et réactive",
+            "Récupération de données via des requêtes HTTP vers une API Rest : utilisation des requêtes HTTP pour récupérer et traiter efficacement les données nécessaires à partir d'une API Rest"
+        ],
+        "keywords": 
+        [
+            "JAVASCRIPT",
+            "SWAGGER",
+            "API REST"
+        ],
+        "cover": "",
+        "pictures": "",
+        "github":"https://github.com/benjaminhal/jsprojet3.git",
+        "demo":""
+    },
+    {
+        "id":"3",
+        "title":"Nina Carducci",
+        "subtitle":"Débug et optimisation d'un site de photographe ",
+        "context":"Projet réalisé dans le cadre de ma formation \"développeur web\" d’OpenClassrooms en 2023.",
+        "mission": {
+            "principal" : "Dans le cadre de ce projet, notre mission consistait à optimiser le site web de la photographe Nina Carducci. Plus précisément, les exigences spécifiques de cette mission étaient les suivantes :",
+            "details": [
+                "L'optimisation globale de son site : amélioration du référencement naturel (SEO) du site pour accroite sa visibilité sur les moteurs de recherche, optimiser les performances pour assurer une expérience utilisateur fluide et réactive, et renforcer l'accessibilité pour garantir une utilisation optimale pour tous les utilisateurs, indépendemment de leurs capacités",
+                "La résolution de bugs spécifiques : corrections des dysfonctionnements liés au défilement des photos dans la modale de la galerie, et résoudre les problèmes d'affichage de la couleur de fond des filtres actifs"
+            ]
+        },
+        "skills":[
+            "SEO et optimisation des performances : mise en oeuvre de stratégies pour améliorer le classement du site dans les résultats de recherche et optimiser ses performances",
+            "Meta-tags pour les réseaux sociaux : utilisation de balises meta pour optimiser le partage du contenu sur les réseaux sociaux comme Meta (Facebook) ou X (Twitter)",
+            "Micro-données et référencement local : intégration de micro-données conformes à Schema.org et Google Rich Snippets pour une indexation plus précise par les moteurs de recherche ",
+            "Accessibilité du site internet et audit Wave : audit approfondie de l'accessibilité du site à l'aide de l'outil Wave, avec une attention particulière portée aux textes alternatifs, à la structure sémantique et au contraste des couleurs",
+            "Réalisation d'audit Google Lighthouse : exécution d'un audit complet à l'aide de Google Lighthouse pour évaluer et améliorer les performances globales du site",
+            "Rédaction d'un rapport d'intervention : compilation d'un rapport détaillé, documentant les actions entreprises et les problèmes résolus"
+        ],
+        "keywords": 
+        [
+            "SEO",
+            "ACCESSIBILITÉ",
+            "OPTIMISATION"
+        ],
+        "cover": "",
+        "pictures":"",
+        "github":"https://github.com/benjaminhal/projet5debug.git",
+        "demo":"https://benjaminhal.github.io/projet5debug/"
+    },
+    {
+        "id":"4",
+        "title":"Kasa",
+        "subtitle":"Création d'une application web de location immobilière avec React",
+        "context":"Projet réalisé dans le cadre de ma formation \"développeur web\" d’OpenClassrooms en 2023.",
+        "mission": {
+            "principal" : "Dans le contexte d'une refonte complète de la plateforme de location immobilière Kasa, nous avons été chargés de la conception du front-end. Ce dernier devait être entièrement développé en utilisant React. Notre mission englobait la création de l'ensemble de l'application, y compris les composants React, la mise en place des routes avec React Router, le tout en respectant les maquettes Figma fournies par le designer.",
+            "details":[]
+        },
+        "skills":[
+            "Initialisation d'un projet React avec Create React App : utilisation du bundler Create React App pour initialiser et structurer efficacement le projet React",
+            "Composants React et utilisation des props : développement des composants React, en mettant en oeuvre les props pour une gestion flexibles des données et des comportements",
+            "Les hooks : utilisation des hooks React tels que useState pour la gestion de l'état, useEffect pour gérer les effets de bord, et useParams pour récupérer les paramètres de l'URL", 
+            "Réalisation du routing avec React Router : implémentation du routage dans l'application avec l'utilisation de la librairie React Router pour une navigation fluide entre les différentes vues",
+            "Design de la page avec Sass : utilisation de Sass pour concevoir une mise en page esthétique et modulaire, améliorant la lisibilité et la maintenabilité du code"
+        ],
+        "keywords": 
+        [
+            "REACT",
+            "REACT ROUTER",
+            "SASS"
+        ],
+        "cover": "",
+        "pictures":"",
+        "github":"https://github.com/benjaminhal/kasa.git",
+        "demo":""
+    },
+    {
+        "id":"5",
+        "title":"Mon Vieux Grimoire",
+        "subtitle":"Développement du back-end d'un site de notation de livres",
+        "context":"Projet réalisé dans le cadre de ma formation \"développeur web\" d’OpenClassrooms en 2023.",
+        "mission": {
+            "principal" : "La mission était centrée sur le développement du back-end du site Mon Vieux Grimoire, une plateforme dédiée au référencement et à la notation de livres. Plus précisément, les objectifs étaient les suivants :",
+            "details": [
+                "Conception et mise en place du serveur : élaboration d'une architecture serveur robuste et efficace pour soutenir les fonctionnalités requise par le site",
+                "Développement de l'API : création complète de l'API pour permettre l'interaction entre le front-end et la base de données",
+                "Configuration de la base de données : mise en place et configuration de la base de données MongoDB  Atlas pour assurer une gestion optimale des données du site"
+            ]
+        },
+        "skills":[
+            "Création et configuration du serveur Express : utilisation du framework Express pour concevoir et configurer un serveur HTTP robuste et performant",
+            "Intégration et configuration de la base de données MongoDB Atlas pour garantir une gestion sécurisée et évolutive des données",
+            "Utilisation de la librairie Mongoose : librairie permettant de simplifier les intéractions avec la base de données, ainsi que le développement et la maintenance du back-end",
+            "Développement de l'API Rest : implémentation d'une API Restful pour permettre une communication fluide entre les front-end et le back-end",
+            "Définition des routes pour les fonctionnalités CRUD : mise en place des routes nécessaires pour les opérations CRUD (Create, Read, Update, Delete) pour une gestion complète des données",
+            "Controllers et Middleware : création de contrôleurs pour traiter les demandes HTTP et utilisation de middleware pour gérer l'authentification ou l'optimisation des images",
+            "Création et vérification de token JWT : implémentation sécurisée de la gestion des tokens JWT (JSON Web Token) pour assurer l'authentification et  l'autorisation des utilisateurs",
+            "Gestion du CORS (Cross-Origin Ressource Sharing) : mise en place de politiques CORS appropriées pour permettre le partage de ressources entre le serveur et les domaines différents, tout en assurant la sécurité"
+        ],
+        "keywords": 
+        [
+            "NODE JS",
+            "EXPRESS",
+            "MONGO DB",
+            "API REST"
+        ],
+        "cover": "",
+        "pictures":"",
+        "github":"https://github.com/benjaminhal/projet7.git",
+        "demo":""
+    }
+]
+
+

@@ -14,8 +14,8 @@ function Header() {
                     <li className={localisation === '/' ? 'nav_list_active' : 'nav_item'} >
                         <Link to="/">Accueil</Link>    
                     </li>
-                    <li className={localisation === '/' ? 'nav_list_active' : 'nav_item'}>
-                        <Link to="/">Portfolio</Link>    
+                    <li className={localisation === '/portfolio' ? 'nav_list_active' : 'nav_item'}>
+                        <Link to="/portfolio">Portfolio</Link>    
                     </li>
                     <li className={localisation === '/contact' ? 'nav_list_active' : 'nav_item'}>
                         <Link to="/contact">Contact</Link>    
