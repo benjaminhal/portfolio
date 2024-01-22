@@ -21,17 +21,21 @@
 }
 
 .adresse img{
-    width: 30px;
-    height: 30px;
+    width: 60px;
+    height: 60px;
 }
 .tel-info img{
-    width: 30px;
-    height: 30px;
+    width: 60px;
+    height: 60px;
 }
 
 .mail-info img{
-    width: 30px;
-    height: 30px;
+    width: 60px;
+    height: 60px;
+}
+
+p{
+    font-size: 23px;
 }
 
 .cc{

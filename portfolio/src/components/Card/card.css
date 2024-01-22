@@ -4,15 +4,21 @@
     box-sizing: border-box;
     border : 1px solid rgba(190, 187, 187, 0.2);
     box-shadow: 5px 5px 20px rgb(133, 132, 132);
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 46px;
 }
 
 .card{
     display: flex;
     flex-direction: column;
     gap: 10px;
+    width: 350px;
     flex-grow: 1;
     box-sizing: border-box;
-    background-color: white;
+    background-color: #D3D3D3;
+    
 }
 
 
@@ -37,12 +43,13 @@
         
             .divkeyword{
                 font-size: 14px;
-                color: blue;
+                color: #8e86b5;
                 font-weight: 600;
                 padding: 5px 10px;
                 border: 1px solid rgba(166, 166, 166, 0.399);
                 border-radius: 5px;
                 box-shadow: 3px 3px 4px rgb(166, 166, 166);
+                background-color: white;
 
             }
     
@@ -58,9 +65,6 @@
                 font-size: 20px;
                 font-weight: 600;
 
-                @media(max-width: 550px){
-                    font-size: 18px;
-                }
             }
 
             .subtitle{
@@ -72,16 +76,16 @@
      
 
     .link{
-        text-decoration: none;
-        background-color: white;
-        color: black;
-        border-top: 2px dashed red;
-        background: white;
-        padding: 20px;
-        font-size: 16px;
-        font-weight: 600;
-        text-align: center;
-        transition: font-size 0.3s ease, padding 0.3s ease, font-weight 0.3s ease;
+        width: 311px;
+    text-decoration: none;
+    background-color: white;
+    border-top: 1px solid #8e86b5;
+    background: #D3D3D3;
+    padding: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    transition: font-size 0.3s ease, padding 0.3s ease, font-weight 0.3s ease;
     }        
         .link:hover{
             font-size: 20px;

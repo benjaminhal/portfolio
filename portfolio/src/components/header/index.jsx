@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom"
 import './header.css'
 import Logo from '../../logo.png'
+import Cv from "../../cv.pdf"
 
 function Header() {
     const localisation = window.location.pathname;
@@ -19,6 +20,9 @@ function Header() {
                     </li>
                     <li className={localisation === '/contact' ? 'nav_list_active' : 'nav_item'}>
                         <Link to="/contact">Contact</Link>    
+                    </li>
+                    <li className={localisation === '/cv' ? 'nav_list_active' : 'nav_item'}>
+                        <Link to={Cv}>CV</Link>    
                     </li>
                 </ul>
             </nav>

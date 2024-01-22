@@ -1,0 +1,121 @@
+
+.project{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 150px 100px 100px 100px;
+    min-height: 100vh;
+    background-color: #1f2039;
+    color: white;
+}
+
+.project__titles{
+        text-align: center;
+        border-bottom: 2px dashed#8e86b5;
+        padding-bottom: 20px;
+        width: 60%;
+}
+
+        h2{
+            font-size: 30px;
+            color : #a5b4fc;
+        }
+
+        h3{
+            font-size: 22px;
+            font-weight: 600;
+    }
+
+    .project__keywords{
+        
+        color: #a5b4fc ;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        font-size: 16px;
+        font-weight: 400;
+        gap: 50px;}
+
+        .keyword{
+            padding: 3px 10px;
+            background-color: white;
+            border: 1px solid rgba(166, 166, 166, 0.399);
+            border-radius: 5px;
+            box-shadow: 5px 5px 4px rgb(166, 166, 166);
+        }
+
+    .project__content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+    .project__image{
+            width: 60%;
+    }
+            img{
+                width: 100%;
+            }
+        
+
+        .project__description{
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            font-size: 20px;
+            width: 80%;
+            text-align: justify;
+        }
+
+            
+
+            .project__context{
+                font-style: italic;
+            }
+
+            h4{
+                font-size: 25px;
+                border-bottom: 4px solid #8e86b5;
+                padding-bottom: 5px;
+                margin-bottom: 20px;
+            }
+
+            .project__content__description__mission li{
+                list-style-type:disc;
+                margin: 8px 0 0 20px;
+                padding-left: 10px;
+            }
+
+    .project__links{
+
+        display: flex;
+        gap: 40px;
+        margin-top: 10px;}
+
+        .project__links link{
+            display: flex;
+            justify-content: center;
+            padding: 10px 20px;
+            width : 80px;
+            color: red;
+            font-weight: 600;
+            text-decoration: none;
+            background-color: white;
+            border: 1px solid rgba(166, 166, 166, 0.399);
+            border-radius: 5px;
+            box-shadow: 10px 10px 5px grey;
+            font-size: 20px;
+        }
+        .project__links link:hover{
+                color: white;
+                background-color: red;
+                box-shadow: 5px 5px 5px grey;
+            }
+        
+        
+            .project__links link inactive{
+            display: none;
+        }
+        
