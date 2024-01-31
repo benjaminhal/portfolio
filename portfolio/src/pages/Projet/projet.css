@@ -10,13 +10,81 @@
     background-color: #1f2039;
     color: white;
 }
+@media  screen and (max-width: 800px){
+    .project__keywords{
+        
+        color: #a5b4fc ;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        font-size: 16px;
+        font-weight: 400;
+        gap: 50px;
+    }
+    .project__links{
 
-.project__titles{
-        text-align: center;
-        border-bottom: 2px dashed#8e86b5;
-        padding-bottom: 20px;
-        width: 60%;
+        display: flex;
+        gap: 40px;
+        margin-top: 10px;}
 }
+
+@media screen and (min-width: 1000px){
+    .project__titles{
+            text-align: center;
+            border-bottom: 2px dashed#8e86b5;
+            padding-bottom: 20px;
+            width: 60%;
+    }
+    .project__keywords{
+        
+        color: #a5b4fc ;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        font-size: 16px;
+        font-weight: 400;
+        gap: 50px;
+    }
+
+        .project__links{
+
+            display: flex;
+            gap: 40px;
+            margin-top: 10px;}
+    
+}
+
+@media screen and (max-width: 500px){
+    .project__titles{
+            text-align: center;
+            border-bottom: 2px dashed#8e86b5;
+            padding-bottom: 20px;
+            width: 101%;
+    }
+    .project__keywords{
+        color: #a5b4fc;
+        display: flex;
+        justify-content: center;
+        font-weight: 400;
+        gap: 30px;
+    }
+    .project__content__image{
+        width: 177% ;
+    }
+    .project__content__description{
+        width: 170% ;
+    }
+    .project__links {
+        display: flex;
+        gap: 40px;
+        margin-top: 10px;
+        width: 135%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}
+
 
         h2{
             font-size: 30px;
@@ -28,15 +96,7 @@
             font-weight: 600;
     }
 
-    .project__keywords{
-        
-        color: #a5b4fc ;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        font-size: 16px;
-        font-weight: 400;
-        gap: 50px;}
+
 
         .keyword{
             padding: 3px 10px;
@@ -87,12 +147,6 @@
                 margin: 8px 0 0 20px;
                 padding-left: 10px;
             }
-
-    .project__links{
-
-        display: flex;
-        gap: 40px;
-        margin-top: 10px;}
 
         .project__links link{
             display: flex;

@@ -11,12 +11,24 @@ header img{
     width: 137px;
     
 }
+ 
+@media  screen and (max-width: 500px){
+    header{
+        height: 75px;
+    }
+    header img{
+        height:80px;
+        width: 80px;
+    }
+    
+    
+}
 
 
 .nav_list{
     font-family: 'Monstserrat', sans-serif;
     display: flex;
-    gap: 50px;
+    gap: 25px;
     background: linear-gradient(to left, #8e86b5, #acaeed);
     background-clip: text;
     font-size: clamp(12px, 2.5vw, 24px);

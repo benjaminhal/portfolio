@@ -3,6 +3,72 @@
     color: white;
 }
 
+@media  screen and (max-width: 500px){
+    .cc {
+        color: #a5b4fc;
+        margin: 16px;
+        text-align: center;
+        font-size: 17px;
+    }
+    .adresse img {
+        width: 30px;
+        height: 30px;
+    }
+    .mail-info img {
+        width: 30px;
+        height: 30px;
+    }
+    .tel-info img {
+        width: 30px;
+        height: 30px;
+    }
+    p {
+        font-size: 12px;
+    }
+}
+
+@media  screen and (max-width: 800px){
+    .adresse img{
+        width: 30px;
+        height: 30px;
+    }
+    .tel-info img{
+        width: 30px;
+        height: 30px;
+    }
+    
+    .mail-info img{
+        width: 30px;
+        height: 30px;
+    }
+    .cc{
+        color: #a5b4fc;
+        margin: 16px;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 1000px){
+    .cc{
+        color: #a5b4fc;
+        margin: 16px;
+        text-align: center;
+    }
+    .adresse img{
+        width: 60px;
+        height: 60px;
+    }
+    .tel-info img{
+        width: 60px;
+        height: 60px;
+    }
+    
+    .mail-info img{
+        width: 60px;
+        height: 60px;
+    }
+}
+
 .info-perso{
     padding-left: 20px;
     padding-top: 20px;
@@ -20,26 +86,8 @@
     display: flex;
 }
 
-.adresse img{
-    width: 60px;
-    height: 60px;
-}
-.tel-info img{
-    width: 60px;
-    height: 60px;
-}
 
-.mail-info img{
-    width: 60px;
-    height: 60px;
-}
 
 p{
     font-size: 23px;
-}
-
-.cc{
-    color: #a5b4fc;
-    margin: 16px;
-    text-align: center;
 }
