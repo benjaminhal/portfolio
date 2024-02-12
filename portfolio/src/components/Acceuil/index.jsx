@@ -26,7 +26,7 @@ function Gallery() {
                         <h3>Frontend</h3>
                         <p>HTML / CSS</p>
                         <p>Javascript</p>
-                        <p> React / Vue.js</p> 
+                        <p> React</p> 
                         <p>Responsive design</p>   
                         <p>Tests et déboguage</p>  
                     </div>
