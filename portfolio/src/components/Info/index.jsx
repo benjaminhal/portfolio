@@ -9,7 +9,7 @@ function Info() {
             <div className='info-perso'>
 					<div className='tel-info'>
 						<img src={Tel} alt="tel"/>
-						<p> 07 82 47 18 60</p>
+						<p> 0 82 47 18 60</p>
 					</div>	
 					<div className='mail-info'>
 						<img src={Mail} alt="mail"/>
