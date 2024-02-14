@@ -12,10 +12,6 @@ function Project() {
     
     const project = data.find(item => item.id === id);
 
-   // if (!project){
-    //    return <ErrorPage/>
-    //}
-
    const demoLinkClass = project.demo ? "project__links link" : "project__links link inactive";
 
     return(
