@@ -11,11 +11,11 @@ function Footer() {
 				<div className='contact'>
 					<div className='tel'>
 						<img src={Tel} alt="tel"/>
-						<p> 07 82 47 18 66</p>
+						<p> 06 82 47 18 66</p>
 					</div>	
 					<div className='mail'>
 						<img src={Mail} alt="mail"/>
-						<p>benjamin.halajda@gmail.com</p>
+						<p>benjamin.halda@gmail.com</p>
 					</div>
 				</div>
                
